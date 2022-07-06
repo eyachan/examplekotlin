@@ -1,8 +1,11 @@
 package com.example.micronautkotlin
 
-import io.micronaut.runtime.Micronaut.*
+import io.micronaut.kotlin.runtime.startApplication
 
-fun main(args: Array<String>) {
-	run(*args)
+object ApplicationKt {
+	@JvmStatic
+	fun main(args: Array<String>) {
+		startApplication<ApplicationKt>(*args)
+	}
 }
 
