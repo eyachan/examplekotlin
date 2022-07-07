@@ -23,15 +23,27 @@ This new framework has been developed by Grails team with an intention to solve 
 
 #### In Parallel, Micronaut also aims to avoid the downsides of Spring framework, Spring Boot and Grails frameworks by providing:
 
--   Fast startup time
--   Reduced memory footprint
--   annotation metadata (meta annotation)
--   AOP proxies
--   beans introspection
--   all other framework infrastructure
--   reflection, runtime proxy and dynamic classloader free
--   small stack trace which help finding the error faster and more understandable
--   Easy unit testing
+- Fast startup time
+- Reduced memory footprint
+- annotation metadata (meta annotation)
+- AOP proxies
+- beans introspection
+- all other framework infrastructure
+- reflection, runtime proxy and dynamic classloader free
+- small stack trace which help finding the error faster and more understandable
+- Easy unit testing
+
+## some concept : 
+### Kotlin Extension Functions
+The Kotlin documentation explains that extension functions are "an ability to extend a class with new functionality without having to inherit from the class or use design patterns such as Decorator."
+They’re useful for writing new functions for classes in a third-party library or quickly creating new methods for common use cases of a class you otherwise can’t edit directly.
+
+### project Demo (Dad Joke app)
+#### technologies : 
+- Micronaut framework
+- Kotlin
+- JUnit 5 
+
 
 #### to run the application 
 ```

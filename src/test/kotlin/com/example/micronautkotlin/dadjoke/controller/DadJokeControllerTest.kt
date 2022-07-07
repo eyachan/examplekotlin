@@ -1,6 +1,6 @@
-package com.example.micronautkotlin.controller
+package com.example.micronautkotlin.dadjoke.controller
 
-import com.example.micronautkotlin.model.DadJoke
+import com.example.micronautkotlin.dadjokeapp.model.DadJoke
 import io.micronaut.http.HttpRequest
 import io.micronaut.http.client.HttpClient
 import io.micronaut.kotlin.context.createBean

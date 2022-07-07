@@ -1,9 +1,9 @@
-package com.example.micronautkotlin.controller
+package com.example.micronautkotlin.dadjokeapp.model.controller
 
 
-import com.example.micronautkotlin.client.DadJokeClient
-import com.example.micronautkotlin.model.DadJoke
-import com.example.micronautkotlin.model.DadJokePagedResults
+import com.example.micronautkotlin.dadjokeapp.model.client.DadJokeClient
+import com.example.micronautkotlin.dadjokeapp.model.DadJoke
+import com.example.micronautkotlin.dadjokeapp.model.DadJokePagedResults
 import io.micronaut.http.MediaType.TEXT_PLAIN
 import io.micronaut.http.annotation.Controller
 import io.micronaut.http.annotation.Get

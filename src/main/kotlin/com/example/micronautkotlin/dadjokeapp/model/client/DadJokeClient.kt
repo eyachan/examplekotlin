@@ -1,7 +1,7 @@
-package com.example.micronautkotlin.client
+package com.example.micronautkotlin.dadjokeapp.model.client
 
-import com.example.micronautkotlin.model.DadJoke
-import com.example.micronautkotlin.model.DadJokePagedResults
+import com.example.micronautkotlin.dadjokeapp.model.DadJoke
+import com.example.micronautkotlin.dadjokeapp.model.DadJokePagedResults
 import io.micronaut.http.annotation.Get
 import io.micronaut.http.annotation.Header
 import io.micronaut.http.annotation.QueryValue

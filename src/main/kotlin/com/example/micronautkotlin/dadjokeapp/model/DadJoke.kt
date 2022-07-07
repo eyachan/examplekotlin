@@ -1,4 +1,4 @@
-package com.example.micronautkotlin.model
+package com.example.micronautkotlin.dadjokeapp.model
 
 import io.micronaut.core.annotation.Introspected
 
