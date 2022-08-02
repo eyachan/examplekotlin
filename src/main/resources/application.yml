@@ -1,6 +1,7 @@
 micronaut:
   application:
     name: examplekotlin
+rabbitmq.uri: amqp://localhost:5772
 netty:
   default:
     allocator:
